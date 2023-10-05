@@ -1,4 +1,4 @@
-<!-- what is React? -->
+**what is React?**
 
 *React is an open-source JavaScript library used for building user interfaces or UI components, particularly for web applications. It was developed by Facebook and is maintained by Facebook and a community of individual developers and companies.*
 
@@ -18,11 +18,11 @@ React allows developers to create large and complex UIs with more maintainable a
 
 **JSX**: JSX is a syntax extension for JavaScript that allows you to write HTML-like code within JavaScript, making it easier to describe component structures.
 
-<!-- who made React? -->
+**who made React?**
 
 React was created by **Jordan Walke**, a software engineer at Facebook. He first introduced React in 2011 during the company's internal Hackathon event. The initial goal was to address the challenges of efficiently updating and rendering the user interface of Facebook's ads manager. Over time, React gained popularity within Facebook and eventually was open-sourced to the public in May 2013.
 
-<!-- What is Bable? -->
+ **What is Bable?**
 
  Babel is a widely used open-source JavaScript compiler that allows developers to write code in the latest version of JavaScript (ES6+ or ESNext) and transpile it into a backward-compatible version of JavaScript (ES5) that can run in older browsers or environments that may not support the latest language features.
 
@@ -69,7 +69,7 @@ export default MyComponent;
 Babel translates JSX syntax into this lower-level representation, enabling compatibility with older JavaScript engines and browsers that may not natively support JSX. The resulting code is valid JavaScript that React can interpret and render appropriately.
 
 
-<!-- What is ReactDom used for?Write an example? -->
+ **What is ReactDom used for?Write an example?**
 
 ReactDOM is a package in React that provides the methods necessary for rendering React components into the DOM (Document Object Model). It is used to take your React components and render them to the browser, updating the DOM to reflect the structure and behavior of your React application.
 
@@ -103,7 +103,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 Replace "path/to/your/bundled/javascript-file.js" with the correct path to your bundled JavaScript file that includes the React application.
 
 
-<!-- What are the packages that you need to import for react to work with? -->
+**What are the packages that you need to import for react to work with?**
 
 To work with React, you need to import several packages. Here are the core packages typically required for a React application:
 
@@ -146,7 +146,7 @@ In addition to these core packages, you might also need to import other packages
 These are some of the essential packages, but depending on your project requirements, you may need to import other libraries to enhance your development process or provide additional functionality. Always refer to the specific documentation of the packages you are using for the most up-to-date and accurate information on how to use them.
 
 
-<!-- What is React.createElement? -->
+**What is React.createElement?**
 
 React.createElement is a fundamental method in React used to create and return a React element, which represents a virtual representation of a DOM element or a user-defined component. React elements are the building blocks of a React application's UI.
 
@@ -172,7 +172,7 @@ type is 'div' (representing the HTML <div> element).
 The element variable now holds a React element representing a <div> element with the specified class name and the text content 'Hello, World!'.
 
 
-<!-- What are three properties that createElement accept? -->
+ **What are three properties that createElement accept?**
 
 
 **The React.createElement function accepts three main properties:**
@@ -206,7 +206,7 @@ The third and subsequent parameters are optional and represent the children of t
 Combining these properties, you can create complex React element structures representing the desired UI components and their relationships within your application.
 
 
-<!-- What is the meaning of render and root? -->
+**What is the meaning of render and root?**
 
 In the context of React, "render" and "root" are terminologies related to rendering React components into the DOM (Document Object Model), which is how React translates virtual elements into visible elements on a webpage.
 
