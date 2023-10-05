@@ -34,7 +34,7 @@ The primary purposes of Babel include:
 
 3. **Syntax Transformation**: Transforming new syntax or features introduced in newer JavaScript versions into equivalent syntax that can be executed in older JavaScript engines.
 
-<!-- How does Babel convert html code in React into valid code? -->
+**How does Babel convert html code in React into valid code?**
 
 Babel does not convert HTML code directly into valid React code. Babel is primarily a JavaScript transpiler, meaning it translates modern JavaScript code (including JSX) into a format that can be understood and executed by older browsers or environments.
 
